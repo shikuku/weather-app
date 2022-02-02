@@ -397,3 +397,14 @@ body {
       opacity: 0.2;
     }
   }
+
+  @media(max-width:414px){
+    .row{
+      width: 100%;
+      display: flex;
+    }
+
+    .text-center{
+      text-align: center;
+    }
+  }
